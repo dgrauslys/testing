@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { templateFunction as currentQuestion } from './questions/templateQuestion';
 
 function App() {
+  currentQuestion();
   return (
     <div className="App">
       <header className="App-header">
